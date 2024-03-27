@@ -1,5 +1,8 @@
+import greet.Greeting;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("First Project of Hello World!");
+        Greeting greet = new Greeting();
+        System.out.println(greet.greeting());
     }
 }
